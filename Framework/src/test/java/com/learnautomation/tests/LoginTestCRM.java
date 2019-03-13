@@ -20,11 +20,5 @@ public class LoginTestCRM extends BaseClass{
 
 	}
 	
-	@Test(priority=2)
-	public void logoutTest() {
-				
-		logger=report.createTest("Logout");
-		logger.fail("Logout failed");
 
-	}
 }

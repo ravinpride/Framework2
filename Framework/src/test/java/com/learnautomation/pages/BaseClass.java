@@ -9,11 +9,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
-
+import org.testng.annotations.Parameters;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
-import com.aventstack.extentreports.MediaEntityModelProvider;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.learnautomation.utilities.BrowserFactory;
 import com.learnautomation.utilities.ConfigDataProvider;
@@ -36,10 +35,11 @@ public class BaseClass {
 		report = new ExtentReports();
 		report.attachReporter(extent);
 	}
-
+	
+	@Parameters({"browser","baseLink"})
 	@BeforeClass
-	public void setup() {
-		driver = BrowserFactory.startApp(driver, con.getBrowser(), con.gettesturl());
+	public void setup(String browser, String baseLink) {
+		driver = BrowserFactory.startApp(driver, browser, baseLink);
 
 	}
 	

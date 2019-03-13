@@ -20,7 +20,7 @@ public class LoginPage {
 		this.driver = driver;
 	}
 	
-	@FindBy(xpath="//a[@href='https://ui.freecrm.com']") WebElement signinlink;
+	@FindBy(xpath="//a[contains(@href,'https://ui.')]") WebElement signinlink;
 	@FindBy(name="email") WebElement EMailAddress;
 	@FindBy(name="password") WebElement Password;
 	@FindBy(xpath="//div[@class='ui fluid large blue submit button']") WebElement Login;
