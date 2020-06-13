@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Starting datasetup]]>
+    </line>
+    <line>
+      <![CDATA[Completed datasetup]]>
+    </line>
+    <line>
+      <![CDATA[Starting browser and application]]>
+    </line>
+    <line>
+      <![CDATA[Started browser and application]]>
+    </line>
+    <line>
+      <![CDATA[starting validation]]>
+    </line>
+    <line>
+      <![CDATA[validation is complete]]>
+    </line>
+    <line>
+      <![CDATA[Test case scenario validated]]>
+    </line>
+    <line>
+      <![CDATA[report generated with screenshots attached]]>
+    </line>
+    <line>
+      <![CDATA[Closing the browser and application]]>
+    </line>
+    <line>
+      <![CDATA[closed the browser and application]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17806" started-at="2020-06-13T19:08:31Z" finished-at="2020-06-13T19:08:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17806" started-at="2020-06-13T19:08:31Z" finished-at="2020-06-13T19:08:49Z">
+      <class name="selenium.testcases.LoginTestCRM">
+        <test-method status="PASS" signature="setupData()[pri:0, instance:selenium.testcases.LoginTestCRM@f6c48ac]" name="setupData" is-config="true" duration-ms="531" started-at="2020-06-13T19:08:30Z" finished-at="2020-06-13T19:08:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting datasetup]]>
+            </line>
+            <line>
+              <![CDATA[Completed datasetup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method status="PASS" signature="startSetUp()[pri:0, instance:selenium.testcases.LoginTestCRM@f6c48ac]" name="startSetUp" is-config="true" duration-ms="7390" started-at="2020-06-13T19:08:31Z" finished-at="2020-06-13T19:08:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting browser and application]]>
+            </line>
+            <line>
+              <![CDATA[Started browser and application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startSetUp -->
+        <test-method status="PASS" signature="loginApp()[pri:1, instance:selenium.testcases.LoginTestCRM@f6c48ac]" name="loginApp" duration-ms="8789" started-at="2020-06-13T19:08:38Z" finished-at="2020-06-13T19:08:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[starting validation]]>
+            </line>
+            <line>
+              <![CDATA[validation is complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="evidence(org.testng.ITestResult)[pri:0, instance:selenium.testcases.LoginTestCRM@f6c48ac]" name="evidence" is-config="true" duration-ms="723" started-at="2020-06-13T19:08:47Z" finished-at="2020-06-13T19:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestCRM.loginApp()[pri:1, instance:selenium.testcases.LoginTestCRM@f6c48ac] output=starting validation]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case scenario validated]]>
+            </line>
+            <line>
+              <![CDATA[report generated with screenshots attached]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- evidence -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:selenium.testcases.LoginTestCRM@f6c48ac]" name="teardown" is-config="true" duration-ms="880" started-at="2020-06-13T19:08:48Z" finished-at="2020-06-13T19:08:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the browser and application]]>
+            </line>
+            <line>
+              <![CDATA[closed the browser and application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- selenium.testcases.LoginTestCRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
