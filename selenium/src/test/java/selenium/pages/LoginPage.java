@@ -30,6 +30,7 @@ public class LoginPage {
 		pass.sendKeys(passwordofapplication);
 		loginToPage.click();
 		
+		//need more wait time
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
